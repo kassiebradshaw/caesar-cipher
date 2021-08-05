@@ -28,4 +28,25 @@ But don't stop there! You'll also need to devise a way to decipher the encrypted
 ## Implementation Notes
 
 * In order to accomplish a certain task, you'll need access to a `corpus` of English words.
-  * A search on something like "python list of English worlds
+  * A search on something like "python list of English words" should get you going
+
+## User Acceptance Tests
+
+The application must:
+
+* [ ] Encrypt a string with a given shift
+* [ ] decrypt a previously encrypted string with the same shift
+* [ ] encryption should handle upper and lowercase letters
+* [ ] encryption should allow non-alpha characters but ignore them, including white space
+* [ ] decrypt encrypted version of "It was the best of times, it was the worst of times." WITHOUT knowing the shift used.
+* [ ] Refer to supplied unit tests
+
+## Stretch Goals
+
+* [ ] Research the Vigenère cipher
+* [ ] Find some examples of ROT13 encrypted punchlines, spoilers, etc.
+* [ ] Break the code for a message written in language other than English.
+
+## Credit & Collaboration
+
+* [ASCII Table](https://www.alpharithms.com/ascii-table-512119/)
