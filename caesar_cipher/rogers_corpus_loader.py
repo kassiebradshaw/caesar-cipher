@@ -1,17 +1,17 @@
 import nltk
-# # Need to add via poetry
+# Need to add via poetry
 
-# nltk.download('words', quiet=True)
-# nltk.download('names', quiet=True)
+nltk.download('words', quiet=True)
+nltk.download('names', quiet=True)
 
-# from nltk.corpus import words, names
+from nltk.corpus import words, names
 
-# word_list = words.words()
-# name_list = names.words()
+word_list = words.words()
+name_list = names.words()
 
-# # print(word_list)
-# # print(name_list)
-# # sdfj sdfp oijasf wperj weksdfp asdf ppidfm the sdf pasldfnasd is sdmfpoi we
+print(word_list)
+print(name_list)
+# sdfj sdfp oijasf wperj weksdfp asdf ppidfm the sdf pasldfnasd is sdmfpoi we
 
 # string = 'computer'
 
@@ -21,4 +21,4 @@ import nltk
 # else:
 #   print('I am not here')
 
-# # if word_count > 60%
+# if word_count > 60%
